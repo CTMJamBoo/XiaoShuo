@@ -1,0 +1,25 @@
+.layer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 909;
+}
+
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0.8rem;
+    background-color: #fff;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    min-height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 999;
+}

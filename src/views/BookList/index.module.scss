@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    padding: 0.2rem 0.2rem;
+    box-sizing: border-box;
+    z-index: 999;
+    .title {
+        font-size: 0.3rem;
+    }
+}
+
+// .center {
+//     position: fixed;
+//     top: 1.8rem;
+//     right: 0.4rem;
+//     width: 0.6rem;
+//     height: 0.6rem;
+//     background-color: #777;
+//     border-radius: 0.3rem;
+//     z-index: 999;
+// }

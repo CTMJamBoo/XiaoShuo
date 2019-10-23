@@ -1,0 +1,98 @@
+.header {
+    // height: 0.5rem;
+    line-height: 0.8rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    .esc {
+        font-size: 0.28rem;
+        font-weight: 900;
+    }
+    .login {
+        font-size: 0.28rem;
+        font-weight: 900;
+        margin-left: 3rem;
+    }
+}
+
+.logomod {
+    width: 100%;
+    padding-top: 0.8rem;
+    margin: auto;
+    text-align: center;
+    .logo {
+        width: 2.5rem;
+        height: 2.5rem;
+        object-fit: cover;
+    }
+}
+
+.loginmod {
+    // height: 4rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .inputmod {
+        height: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        .usermod,
+        .passmod {
+            position: relative;
+            border-bottom: 2px solid #ddd;
+        }
+        .usermod {
+            .kaoxian {
+                position: absolute;
+                top: 0.1rem;
+                left: 0.1rem;
+            }
+        }
+        .passmod {
+            .yuechi {
+                position: absolute;
+                top: 0.1rem;
+                left: 0.1rem;
+            }
+            .islook {
+                position: absolute;
+                top: 0.1rem;
+                right: 0.1rem;
+            }
+        }
+    }
+    .forgetpsw {
+        width: 3.8rem;
+        height: 0.5rem;
+        font-size: 0.24rem;
+        color: #777;
+        p {
+            text-align: right;
+        }
+    }
+    .btnmod {
+        height: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.protocol {
+    width: 3.8rem;
+    padding-top: 0.1rem;
+    font-size: 0.24rem;
+    color: #777;
+}
+
+input {
+    width: 3.8rem;
+    border: none;
+    padding: 0 0.8rem;
+    line-height: 0.6rem;
+    box-sizing: border-box;
+}
